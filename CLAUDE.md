@@ -12,6 +12,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 til/
+├── book/            # 독서 노트 및 서적 요약
 ├── en/              # 영어 관련 학습 노트
 ├── financial/       # 재무/세금 관련 정보 (예: 월세 세액공제)
 ├── go/              # Go 언어 학습 (서브모듈 포함)
@@ -82,6 +83,10 @@ git submodule update --init --recursive
 ```
 
 ## Content Categories
+
+### 독서 및 학습
+- **Book**: 기술 서적 독서 노트 및 요약
+  - 스타트업 서비스 설계는 처음인데요 (서비스 설계, 기술 부채, 아키텍처)
 
 ### 프로그래밍 언어
 - **PHP**: Composer 설정, 함수 매뉴얼, 테스팅 도구 (Phony)
