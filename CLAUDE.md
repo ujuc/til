@@ -12,19 +12,36 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 til/
-├── book/            # 독서 노트 및 서적 요약
-├── en/              # 영어 관련 학습 노트
-├── financial/       # 재무/세금 관련 정보 (예: 월세 세액공제)
+├── book/            # 독서 노트 및 서적 요약 (1개)
+│   └── 스타트업_서비스_설계는_처음인데요/
+├── en/              # 영어 관련 학습 노트 (1개)
+│   └── disjunctive.md
+├── financial/       # 재무/세금 관련 정보 (1개)
+│   └── yeon-mar-jeong-san/
+│       └── weor-se-se-aeg-gong-je.md
 ├── go/              # Go 언어 학습 (서브모듈 포함)
-├── htdp/            # How to Design Programs 학습 노트
-├── php/             # PHP 관련 학습 노트
-│   ├── composer/    # Composer 설정 속성 설명
-│   ├── man/         # PHP 함수 매뉴얼
-│   └── phony/       # Phony 모킹 라이브러리
-├── telegram_bot/    # Telegram 봇 개발 관련
-├── vim/             # Vim 플러그인 및 사용법
-└── vimscript/       # Vimscript 학습
+│   └── get-programming-with-go/  # 서브모듈
+├── htdp/            # How to Design Programs 학습 노트 (3개)
+│   ├── introduction.md
+│   ├── ch1/memo.md
+│   └── ch2/1-memo.md
+├── php/             # PHP 관련 학습 노트 (11개)
+│   ├── composer/    # Composer 설정 속성 설명 (9개)
+│   │   └── composer.json/
+│   ├── man/         # PHP 함수 매뉴얼 (1개)
+│   │   └── function/Math/ceil.md
+│   └── phony/       # Phony 모킹 라이브러리 (1개 + 서브모듈)
+│       ├── install.md
+│       └── phony_kahlan_example/  # 서브모듈
+├── telegram_bot/    # Telegram 봇 개발 관련 (1개)
+│   └── inline_mode.md
+├── vim/             # Vim 플러그인 및 사용법 (1개)
+│   └── plugin-nerd-commenter.md
+└── vimscript/       # Vimscript 학습 (1개)
+    └── README.md
 ```
+
+**총 문서 수**: 약 20개 (서브모듈 제외)
 
 ## Git Submodules
 
@@ -77,24 +94,32 @@ git submodule update --init --recursive
 ## Content Categories
 
 ### 독서 및 학습
-- **Book**: 기술 서적 독서 노트 및 요약
-  - 스타트업 서비스 설계는 처음인데요 (서비스 설계, 기술 부채, 아키텍처)
+- [**Book**](book/) (1개): 기술 서적 독서 노트 및 요약
+  - [스타트업 서비스 설계는 처음인데요](book/스타트업_서비스_설계는_처음인데요/README.md) - 서비스 설계, 기술 부채, 아키텍처, 스타트업 생존 전략
 
 ### 프로그래밍 언어
-- **PHP**: Composer 설정, 함수 매뉴얼, 테스팅 도구 (Phony)
-- **Go**: 기초 학습 (서브모듈로 관리)
-- **Vimscript**: Vim 스크립트 학습
+- [**PHP**](php/) (11개): Composer 설정, 함수 매뉴얼, 테스팅 도구
+  - [Composer](php/composer/composer.json/) - `composer.json` 설정 속성 설명 (authors, homepage, keywords, license, name, description, time, type, version 등)
+  - [PHP 함수 매뉴얼](php/man/function/) - Math 함수 ([ceil](php/man/function/Math/ceil.md) 등)
+  - [Phony](php/phony/) - 모킹 라이브러리 설치 및 사용법
+- **Go**: 기초 학습 (서브모듈 `go/get-programming-with-go`로 관리)
+- [**Vimscript**](vimscript/README.md) (1개): Vim 스크립트 학습
 
 ### 도구 및 환경
-- **Vim**: 플러그인 사용법 (예: NERDCommenter)
-- **Telegram Bot**: 인라인 모드 등 봇 개발
+- [**Vim**](vim/) (1개): 플러그인 사용법
+  - [NERDCommenter](vim/plugin-nerd-commenter.md) - 주석 처리 플러그인
+- [**Telegram Bot**](telegram_bot/) (1개): 봇 개발 관련
+  - [Inline Mode](telegram_bot/inline_mode.md) - 인라인 모드 구현
 
 ### 이론 및 개념
-- **HTDP** (How to Design Programs): 프로그램 디자인 방법론
-- **영어**: 용어 정리
+- [**HTDP**](htdp/) (3개): How to Design Programs 학습 노트
+  - [Introduction](htdp/introduction.md), [Chapter 1 메모](htdp/ch1/memo.md), [Chapter 2-1 메모](htdp/ch2/1-memo.md)
+- [**영어**](en/) (1개): 용어 정리
+  - [Disjunctive](en/disjunctive.md) - 이접적
 
 ### 실생활 정보
-- **Financial**: 세금 관련 정보 (월세 세액공제 등)
+- [**Financial**](financial/) (1개): 재무/세금 관련 정보
+  - [연말정산 - 월세 세액공제](financial/yeon-mar-jeong-san/weor-se-se-aeg-gong-je.md)
 
 ## Notes for AI Assistants
 
