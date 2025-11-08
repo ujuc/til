@@ -23,7 +23,7 @@
 ### 도구 및 환경
 - [**Vim**](vim/) (1개): 플러그인 사용법
   - NERDCommenter 플러그인
-- [**Telegram Bot**](telegram_bot/) (1개): 봇 개발 관련
+- [**Telegram Bot**](telegram-bot/) (1개): 봇 개발 관련
   - 인라인 모드 구현
 
 ### 이론 및 개념
@@ -48,7 +48,7 @@ til/
 │   ├── composer/    # Composer 설정
 │   ├── man/         # PHP 함수 매뉴얼
 │   └── phony/       # Phony 모킹 라이브러리
-├── telegram_bot/    # Telegram 봇 개발 (1개)
+├── telegram-bot/    # Telegram 봇 개발 (1개)
 ├── vim/             # Vim 플러그인 (1개)
 └── vimscript/       # Vimscript 학습 (1개)
 ```

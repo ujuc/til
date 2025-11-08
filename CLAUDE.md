@@ -13,12 +13,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ```
 til/
 ├── book/            # 독서 노트 및 서적 요약 (1개)
-│   └── 스타트업_서비스_설계는_처음인데요/
+│   └── 스타트업-서비스-설계는-처음인데요/
 ├── en/              # 영어 관련 학습 노트 (1개)
 │   └── disjunctive.md
 ├── financial/       # 재무/세금 관련 정보 (1개)
-│   └── yeon-mar-jeong-san/
-│       └── weor-se-se-aeg-gong-je.md
+│   └── 연말정산/
+│       └── 월세세액공제.md
 ├── go/              # Go 언어 학습 (서브모듈 포함)
 │   └── get-programming-with-go/  # 서브모듈
 ├── htdp/            # How to Design Programs 학습 노트 (3개)
@@ -33,8 +33,8 @@ til/
 │   └── phony/       # Phony 모킹 라이브러리 (1개 + 서브모듈)
 │       ├── install.md
 │       └── phony_kahlan_example/  # 서브모듈
-├── telegram_bot/    # Telegram 봇 개발 관련 (1개)
-│   └── inline_mode.md
+├── telegram-bot/    # Telegram 봇 개발 관련 (1개)
+│   └── inline-mode.md
 ├── vim/             # Vim 플러그인 및 사용법 (1개)
 │   └── plugin-nerd-commenter.md
 └── vimscript/       # Vimscript 학습 (1개)
@@ -67,7 +67,7 @@ git submodule update --init --recursive
 
 ### 문서 작성 규칙
 
-1. **파일명**: 소문자 kebab-case 사용 (예: `weor-se-se-aeg-gong-je.md`)
+1. **파일명**: 소문자 kebab-case 사용 (예: `inline-mode.md`)
 2. **언어**: 주로 한국어로 작성되며, 기술 용어는 영문 병기
 3. **구조화**: 주제별 디렉토리 구조를 유지
 4. **마크다운 형식**: 표준 마크다운 문법 사용
@@ -76,7 +76,7 @@ git submodule update --init --recursive
 
 1. 적절한 주제 디렉토리 선택 또는 생성
 2. 주제를 명확히 설명하는 파일명으로 마크다운 파일 생성
-3. 필요시 하위 디렉토리 구조 생성 (예: `financial/yeon-mar-jeong-san/`)
+3. 필요시 하위 디렉토리 구조 생성 (예: `financial/연말정산/`)
 
 ### 기존 노트 수정하기
 
@@ -95,7 +95,7 @@ git submodule update --init --recursive
 
 ### 독서 및 학습
 - [**Book**](book/) (1개): 기술 서적 독서 노트 및 요약
-  - [스타트업 서비스 설계는 처음인데요](book/스타트업_서비스_설계는_처음인데요/README.md) - 서비스 설계, 기술 부채, 아키텍처, 스타트업 생존 전략
+  - [스타트업 서비스 설계는 처음인데요](book/스타트업-서비스-설계는-처음인데요/README.md) - 서비스 설계, 기술 부채, 아키텍처, 스타트업 생존 전략
 
 ### 프로그래밍 언어
 - [**PHP**](php/) (11개): Composer 설정, 함수 매뉴얼, 테스팅 도구
@@ -108,8 +108,8 @@ git submodule update --init --recursive
 ### 도구 및 환경
 - [**Vim**](vim/) (1개): 플러그인 사용법
   - [NERDCommenter](vim/plugin-nerd-commenter.md) - 주석 처리 플러그인
-- [**Telegram Bot**](telegram_bot/) (1개): 봇 개발 관련
-  - [Inline Mode](telegram_bot/inline_mode.md) - 인라인 모드 구현
+- [**Telegram Bot**](telegram-bot/) (1개): 봇 개발 관련
+  - [Inline Mode](telegram-bot/inline-mode.md) - 인라인 모드 구현
 
 ### 이론 및 개념
 - [**HTDP**](htdp/) (3개): How to Design Programs 학습 노트
@@ -119,7 +119,7 @@ git submodule update --init --recursive
 
 ### 실생활 정보
 - [**Financial**](financial/) (1개): 재무/세금 관련 정보
-  - [연말정산 - 월세 세액공제](financial/yeon-mar-jeong-san/weor-se-se-aeg-gong-je.md)
+  - [연말정산 - 월세세액공제](financial/연말정산/월세세액공제.md)
 
 ## Notes for AI Assistants
 
