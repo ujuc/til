@@ -1,0 +1,10 @@
+{
+	"go.goroot": "/Users/ujuc/.local/share/mise/installs/go/1.25.4",
+	"debug.javascript.defaultRuntimeExecutable": {
+		"pwa-node": "/Users/ujuc/.local/share/mise/shims/node"
+	},
+	"python.defaultInterpreterPath": "/Users/ujuc/.local/share/mise/installs/python/3.14.0/bin/python",
+	"go.alternateTools": {
+		"go": "/Users/ujuc/.local/share/mise/shims/go"
+	}
+}
