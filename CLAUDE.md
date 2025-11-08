@@ -68,19 +68,11 @@ git submodule update --init --recursive
 
 ## Commit Message Convention
 
-커밋 메시지는 이모지를 활용하여 변경 유형을 표시합니다:
+### 슬래시 명령어
 
-- `:black_nib:` (✒️) - 새로운 학습 노트 추가
-- `♻️` - 문서 구조 변경 또는 리팩토링
-- `☝️` - 기존 내용 업데이트
-- `🔗` - 링크 또는 참조 추가
-- `chore:` - 설정 파일 등 비문서 변경
+프로젝트 전용 명령어를 사용할 수 있습니다:
 
-예시:
-```
-:black_nib: Add 월세 세액공제 추가
-☝️ phony example 업그레이드
-```
+- `/update-docs` - README 및 CLAUDE 문서 자동 업데이트
 
 ## Content Categories
 
