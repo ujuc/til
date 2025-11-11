@@ -12,7 +12,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```
 til/
-├── book/            # 독서 노트 및 서적 요약 (1개)
+├── book/            # 독서 노트 및 서적 요약 (2개)
+│   ├── 가상-면접-사례로-배우는-대규모-시스템-설계-기초/
 │   └── 스타트업-서비스-설계는-처음인데요/
 ├── en/              # 영어 관련 학습 노트 (1개)
 │   └── disjunctive.md
@@ -26,7 +27,7 @@ til/
 │   ├── ch1/memo.md
 │   └── ch2/1-memo.md
 ├── php/             # PHP 관련 학습 노트 (11개)
-│   ├── composer/    # Composer 설정 속성 설명 (9개)
+│   ├── composer/    # Composer 설정 속성 설명 (10개)
 │   │   └── composer.json/
 │   ├── man/         # PHP 함수 매뉴얼 (1개)
 │   │   └── function/Math/ceil.md
@@ -41,7 +42,7 @@ til/
     └── README.md
 ```
 
-**총 문서 수**: 약 20개 (서브모듈 제외)
+**총 문서 수**: 약 21개 (서브모듈 제외)
 
 ## Git Submodules
 
@@ -94,7 +95,8 @@ git submodule update --init --recursive
 ## Content Categories
 
 ### 독서 및 학습
-- [**Book**](book/) (1개): 기술 서적 독서 노트 및 요약
+- [**Book**](book/) (2개): 기술 서적 독서 노트 및 요약
+  - [가상 면접 사례로 배우는 대규모 시스템 설계 기초](book/가상-면접-사례로-배우는-대규모-시스템-설계-기초/README.md) - 규모 확장성, 데이터베이스, 캐시, CDN, 샤딩
   - [스타트업 서비스 설계는 처음인데요](book/스타트업-서비스-설계는-처음인데요/README.md) - 서비스 설계, 기술 부채, 아키텍처, 스타트업 생존 전략
 
 ### 프로그래밍 언어
